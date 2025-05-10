@@ -2,19 +2,19 @@ import z3
 import struct
 import math
 
-min = 1
-max = 100000
+min = 0
+max = 9
 points = [
-    62351,
-    68243,
-    80445,
-    60343,
-    39020,
-    4543,
-    5524,
-    82708,
-    13099,
-    29540
+    2,
+    0,
+    4,
+    9,
+    7,
+    0,
+    2,
+    3,
+    6,
+    2
 ]
 
 solver = z3.Solver()
